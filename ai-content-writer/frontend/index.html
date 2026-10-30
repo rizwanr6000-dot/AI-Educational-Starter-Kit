@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>AI Content Writer</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app">
+    <header>
+      <h1>AI Content Writer</h1>
+      <p>Pick a content type, describe your topic, and get formatted AI-generated output.</p>
+    </header>
+
+    <main>
+      <section class="controls">
+        <label for="contentType">Content Type</label>
+        <select id="contentType">
+          <option value="article">Article</option>
+          <option value="blog">Blog Post</option>
+          <option value="linkedin">LinkedIn Post</option>
+          <option value="email">Email</option>
+          <option value="report">Report</option>
+        </select>
+
+        <label for="tone">Tone</label>
+        <select id="tone">
+          <option value="professional">Professional</option>
+          <option value="casual">Casual</option>
+          <option value="persuasive">Persuasive</option>
+          <option value="formal">Formal</option>
+          <option value="friendly">Friendly</option>
+        </select>
+
+        <label for="topic">Topic / Brief</label>
+        <textarea id="topic" rows="3" placeholder="e.g. Benefits of using AI tools for small business marketing"></textarea>
+
+        <label for="extra">Extra Instructions (optional)</label>
+        <textarea id="extra" rows="2" placeholder="e.g. Keep it under 500 words, mention our product XYZ"></textarea>
+
+        <button id="generateBtn">Generate</button>
+      </section>
+
+      <section class="output">
+        <div class="output-header">
+          <h2>Output</h2>
+          <button id="copyBtn" title="Copy to clipboard">Copy</button>
+        </div>
+        <pre id="outputBox">Your generated content will appear here...</pre>
+      </section>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
