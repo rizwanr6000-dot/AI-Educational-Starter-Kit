@@ -1,0 +1,478 @@
+# MASTER PROJECT: Fully Automated Video Production: 5 Free AI Tools Every Student Should Know
+
+## YOUR ROLE
+
+Act as an autonomous AI video production studio, scientific educator, scriptwriter, 3D animation director, bilingual translator, voiceover producer, audio engineer, video editor, and quality assurance engineer.
+
+Your mission is to CREATE AND DELIVER a complete, professional, educational 3D animated video explaining 5 free AI tools every student should know.
+
+Do not stop after creating a plan, presentation, storyboard, script, or collection of prompts. Execute the complete workflow using the tools, APIs, software, and services available in the environment.
+
+If one service is unavailable, identify a suitable alternative and continue with the remaining work.
+
+## 1. PROJECT OBJECTIVES
+
+Create two complete versions of the same beginner-friendly educational video.
+
+VIDEO A
+- Language: English
+- Filename: 5_Free_AI_Tools_English.mp4
+- Narration: English voiceover
+
+VIDEO B
+- Language: Tamil
+- Filename: 5_Free_AI_Tools_Tamil.mp4
+- Narration: Natural Tamil voiceover
+
+Both videos must use the same visual sequence and approximately the same duration.
+
+PROJECT SPECIFICATIONS
+- Target duration: 4 minutes, acceptable range 3–5 minutes
+- Resolution: 1920 × 1080
+- Aspect ratio: 16:9 landscape
+- Frame rate: 30 FPS, where supported
+- Visual style: cinematic, realistic 3D scientific animation
+- Audience: beginners, students, and general viewers
+- Tone: clear, engaging, accurate, modern, and professional
+- Audio: synchronized narration, subtle background music, and appropriate sound effects
+- Subtitles: accurate, synchronized, and separately available in English and Tamil
+- Deliverables: rendered MP4 files, narration audio, subtitles, scripts, source assets, prompts, project files, and documentation
+
+Do not create a slideshow or presentation as the final deliverable. The final output must be actual moving video.
+
+## 2. FIRST: INSPECT THE ENVIRONMENT
+
+Before generating anything:
+
+1. Inspect the available editor, terminal, browser, installed software, filesystem, and permitted integrations.
+2. Check whether FFmpeg is installed and usable.
+3. Identify accessible AI video-generation services and their supported APIs.
+4. Identify available English and Tamil text-to-speech services.
+5. Check whether image-generation, audio-generation, and video-generation tools are available.
+6. Determine which services require API keys, authentication, credits, subscriptions, or user approval.
+7. Check available disk space and establish an output directory.
+8. Create a project manifest listing the available capabilities, missing dependencies, and chosen workflow.
+
+Prefer reliable APIs and repeatable code-based workflows over fragile manual browser interactions.
+
+Never expose secrets or API keys in logs, generated documentation, source code, or final reports.
+
+Do not claim a service is connected unless access has been verified.
+
+## 3. ESTABLISH THE PROJECT STRUCTURE
+
+Create a project directory with this structure:
+
+5_Free_AI_Tools_for_Students_Project/
+    README.md
+    project_manifest.json
+    scripts/
+        script_english.md
+        script_tamil.md
+        scene_timing.json
+    prompts/
+        master_visual_prompt.md
+        scene_prompts.md
+    assets/
+        video/
+        images/
+        audio/
+        music/
+        sound_effects/
+        fonts/
+    subtitles/
+        english.srt
+        tamil.srt
+    source/
+        generate_assets.py
+        generate_audio.py
+        assemble_video.py
+        validate_output.py
+    project_files/
+    output/
+        5_Free_AI_Tools_English.mp4
+        5_Free_AI_Tools_Tamil.mp4
+        English_narration.wav
+        Tamil_narration.wav
+
+Adapt this structure if the available tools require a different arrangement.
+
+## 4. WRITE THE BEGINNER-FRIENDLY EXPLANATION
+
+Create an engaging, beginner-friendly educational video titled:
+
+“5 Free AI Tools Every Student Should Know”
+
+Explain five useful AI tools that students can use for studying, research, note-making, presentations, and learning difficult concepts.
+
+Use these five tools as the core list:
+1. ChatGPT — for understanding topics, brainstorming, practice questions, and step-by-step explanations.
+2. Google Gemini — for explanations, brainstorming, and help with study tasks across text and supported multimodal inputs.
+3. Google NotebookLM — for studying from a student's own uploaded or selected sources, creating source-grounded summaries, and asking questions about those materials.
+4. Perplexity — for AI-assisted research and finding answers with cited sources; remind viewers to open and verify the sources.
+5. Canva — for creating presentations, posters, and visual study materials, including available AI features.
+
+IMPORTANT TOOL AND PRICING ACCURACY:
+- The video title says “Free,” but explain that these services have free access or free tiers, not necessarily unlimited free usage.
+- Features, usage limits, eligibility, and availability may change by region and over time.
+- Do not claim that every feature is free.
+- Do not invent pricing, limits, or capabilities. Verify current details using official product pages if web access is available.
+- If current verification is unavailable, use careful wording such as “free plan” or “free access with limits,” and state that students should check the official site.
+- Avoid implying that AI answers are always correct.
+
+Cover these concepts in a logical sequence:
+1. Introduction: why students may find AI tools useful, while still doing their own learning.
+2. Tool 1: ChatGPT — key student use cases and a short example.
+3. Tool 2: Google Gemini — key student use cases and a short example.
+4. Tool 3: Google NotebookLM — key student use cases and a short example.
+5. Tool 4: Perplexity — key student use cases and a short example.
+6. Tool 5: Canva — key student use cases and a short example.
+7. A quick comparison showing which tool is most useful for explanations, source-based study, research, and visual projects.
+8. Responsible use: verify information, protect personal data, follow school/college rules, and do not submit AI-generated work as one's own.
+9. Conclusion: encourage students to try the tools thoughtfully and check the current free-plan terms.
+
+Use a clear beginner-friendly format for every tool:
+- Tool name
+- What it helps with
+- One simple student example
+- A practical limitation or responsible-use tip
+
+Target approximately 400–550 spoken English words, adjusting for natural narration speed and the final duration.
+
+## 5. PRODUCE THE TAMIL VERSION
+
+Create a natural Tamil adaptation of the complete English script.
+
+Requirements:
+
+- Use clear, contemporary Tamil suitable for educational narration.
+- Preserve the scientific meaning of the English explanation.
+- Avoid awkward literal translation and unnecessary English words.
+- Use standard technical terms where appropriate.
+- Explain unfamiliar terms in Tamil when helpful.
+- Use natural sentence structure and appropriate punctuation.
+- Make the narration comfortable to listen to.
+- Check pronunciation of terms such as 5 free AI tools every student should know, input layer, hidden layer, output layer, loss, backpropagation, and weights.
+- Preserve scene order and meaning across both versions.
+
+Save both complete scripts before generating narration.
+
+## 6. CREATE THE STORYBOARD
+
+Create 7–9 scenes covering the full lesson.
+
+For every scene, define:
+
+- Scene ID
+- Start time and end time
+- Educational objective
+- Visual description
+- Camera movement
+- Animation and particle effects
+- English narration
+- Tamil narration
+- English subtitle text
+- Tamil subtitle text
+- Background music and sound effects
+- Transition to the next scene
+
+Allocate enough time for the narration to be spoken naturally.
+
+The two language versions may require slightly different narration durations. Adjust scene timing where needed while maintaining the same overall visual sequence.
+
+Save the storyboard as structured JSON and readable Markdown.
+
+## 7. GENERATE CONSISTENT 3D VISUALS
+
+Use the best available authorized AI video-generation service.
+
+Preferred options include Google Veo through an accessible authorized interface or API, Google Flow where appropriate, or another suitable video-generation service.
+
+Check the actual capabilities and access requirements before selecting the service.
+
+MASTER VISUAL STYLE:
+
+Premium cinematic 3D student-focused technology explainer. A modern study desk and digital learning environment with glowing cyan and electric-blue AI tool panels, violet accents, warm study lighting balanced with dark navy backgrounds, translucent app-inspired interfaces, realistic volumetric lighting, subtle particles, elegant educational graphics, smooth camera motion, detailed materials, and consistent composition. Do not reproduce proprietary product UI exactly; use generic visual representations and accurate tool names.
+
+Create actual moving video scenes rather than static slides.
+
+Required visuals:
+
+SCENE 1 — OPENING
+A student at a desk faces a lively digital workspace. Five distinct AI-tool panels appear around the student, introducing the title “5 Free AI Tools Every Student Should Know.”
+
+SCENE 2 — CHATGPT
+Show a student asking for a simple explanation of a difficult subject. The assistant presents a clear explanation and practice questions. Avoid displaying fabricated or unreadable interface text.
+
+SCENE 3 — GOOGLE GEMINI
+Show a student brainstorming a project and exploring a topic using a digital assistant, with visual cues for text and supported multimodal learning.
+
+SCENE 4 — GOOGLE NOTEBOOKLM
+Show a student organizing class notes and source documents, then using them to review key ideas and ask source-grounded questions.
+
+SCENE 5 — PERPLEXITY
+Show a student researching a topic. Search results and citation/source cards appear, and the student opens a source to verify a claim.
+
+SCENE 6 — CANVA
+Show a student turning class notes into a presentation, poster, or visual study guide using a creative design workspace.
+
+SCENE 7 — QUICK COMPARISON
+Present a clean, animated comparison of the five tools and their main student use cases: explanations, brainstorming, source-based study, research, and visual projects.
+
+SCENE 8 — RESPONSIBLE USE
+Show a student checking facts against reliable sources, protecting personal information, and using AI as a learning aid rather than copying answers.
+
+SCENE 9 — CONCLUSION
+Pull back to reveal the student confidently using a balanced study workflow with the five tools, books, notes, and classroom resources.
+
+VISUAL GENERATION RULES:
+
+- Use 16:9 landscape framing.
+- Maintain consistent colors, neuron shapes, lighting, and camera style.
+- Generate clips at the best supported resolution and duration.
+- Use multiple clips for each complex scene when necessary.
+- Do not assume a single prompt can generate the entire finished video.
+- Do not ask video models to render lengthy technical text.
+- Add accurate labels, diagrams, and captions during editing.
+- Avoid flickering, warped objects, inconsistent geometry, and distracting visual artifacts.
+- Do not imitate copyrighted films, specific creators, or branded visual identities.
+- Save the prompt, generation settings, source file, and status of each asset.
+- If a generation job fails, retry within reasonable limits or use an alternative method.
+
+If AI video generation is unavailable, create animated 3D scenes with Blender or programmatically generated graphics where feasible. Clearly distinguish fallback animations from generated cinematic footage.
+
+## 8. GENERATE ENGLISH AND TAMIL VOICEOVERS
+
+Use an authorized text-to-speech service with verified support for both languages.
+
+Preferred voice characteristics:
+
+ENGLISH
+- Clear, friendly educational narrator
+- Natural English pronunciation
+- Moderate pace
+- Confident documentary delivery
+- Appropriate pauses around technical concepts
+
+TAMIL
+- Natural Tamil pronunciation
+- Clear educational delivery
+- Moderate pace
+- Comfortable, conversational rhythm
+- Correct pronunciation of scientific terminology
+
+Generate separate high-quality audio files for each scene or language.
+
+Requirements:
+
+1. Split scripts into manageable narration segments.
+2. Generate English narration.
+3. Generate Tamil narration.
+4. Save the original audio segments.
+5. Combine segments in scene order.
+6. Preserve natural pauses and sentence boundaries.
+7. Avoid clipped words, excessive silence, robotic pacing, and abrupt cuts.
+8. Inspect generated audio and regenerate defective segments.
+9. Use WAV for intermediate narration where supported.
+10. Keep the English and Tamil narration files separate.
+
+If native Tamil TTS is unavailable, choose another accessible Tamil-capable provider. Do not silently substitute an English voice or fabricate support.
+
+## 9. SYNCHRONIZE NARRATION AND VIDEO
+
+This is a critical requirement.
+
+Build a timeline-driven editing pipeline.
+
+For each scene:
+
+1. Measure the actual narration duration.
+2. Match the visual clip to the narration.
+3. Trim or extend visual timing where possible.
+4. Use additional relevant clips, slow camera movements, or carefully controlled holds when necessary.
+5. Avoid stretching speech unnaturally.
+6. Prevent abrupt transitions and clipped final words.
+7. Keep dialogue intelligible above music.
+8. Use short fades between narration segments.
+9. Ensure no scene is missing its corresponding narration.
+10. Align subtitles to actual speech timing.
+
+The English and Tamil voiceovers must be synchronized independently because translated sentences may take different amounts of time to speak.
+
+Use the same underlying visual sequence for both final versions, with timing adjustments where required.
+
+Do not simply place one complete audio file over a video and assume the synchronization is correct.
+
+## 10. CREATE SUBTITLES AND ON-SCREEN LABELS
+
+Generate separate subtitle files:
+
+- subtitles/english.srt
+- subtitles/tamil.srt
+
+Synchronize subtitle timestamps with the corresponding spoken narration.
+
+Use readable fonts with full Tamil Unicode support.
+
+Add concise on-screen labels for:
+
+- ChatGPT
+- Google Gemini
+- Google NotebookLM
+- Perplexity
+- Canva
+- Free Plan / Usage Limits
+- Verify AI Answers
+
+Provide Tamil equivalents in the Tamil version.
+
+Keep labels brief and correctly spelled. Use proper text-rendering tools rather than generating text inside AI video frames.
+
+Maintain safe margins, adequate contrast, and consistent typography.
+
+## 11. ADD MUSIC AND SOUND DESIGN
+
+Choose suitable instrumental background music with documented permission for the intended use.
+
+Preferred style:
+
+- Subtle futuristic science-documentary atmosphere
+- Gentle electronic textures
+- Light rhythmic pulses
+- Smooth transitions
+- No distracting vocals
+
+Add restrained sound effects for particle movement, signal transmission, transitions, and important visual reveals.
+
+Audio rules:
+
+- Narration must always remain clearly intelligible.
+- Duck background music during speech.
+- Prevent clipping and excessive loudness.
+- Use smooth audio fades.
+- Keep music and sound effects consistent across both language versions.
+- Respect music and sound-effect licenses.
+
+Do not use copyrighted commercial music without appropriate permission.
+
+## 12. ASSEMBLE THE VIDEO
+
+Use FFmpeg or another suitable available editor for the final rendering process.
+
+Implement a repeatable rendering script that:
+
+1. Loads the scene manifest.
+2. Orders the generated video clips.
+3. Applies transitions and appropriate timing adjustments.
+4. Adds on-screen labels.
+5. Adds the selected narration track.
+6. Adds synchronized subtitles or prepares subtitle sidecars.
+7. Mixes background music and sound effects at appropriate levels.
+8. Applies fades where needed.
+9. Converts clips to a consistent resolution, frame rate, and pixel format.
+10. Exports the English MP4.
+11. Exports the Tamil MP4.
+12. Saves a log of all rendering operations.
+
+Use H.264 video and AAC audio in MP4 where supported.
+
+Preserve the original narration and generated assets separately.
+
+If the video editor supports selectable language audio tracks, optionally create an additional bilingual MP4. The two separate MP4 versions remain the primary deliverables.
+
+## 13. AUTOMATED QUALITY ASSURANCE
+
+Create a validation script and execute it after rendering.
+
+Check:
+
+- Both MP4 files exist.
+- Both files can be decoded and played.
+- Video dimensions are correct.
+- Duration is within the target range.
+- Video frame rate is consistent.
+- Audio streams are present.
+- Narration is audible and not clipped.
+- No unexpected black frames or missing scenes occur.
+- Subtitles exist and timestamps are valid.
+- Subtitle text matches the correct language.
+- Audio does not end before the final scene.
+- Narration is synchronized with the relevant visuals.
+- The English and Tamil versions contain the same core lesson.
+- Technical labels are spelled correctly.
+- No unintended watermarks or corrupted frames appear.
+- Music does not overpower narration.
+
+Use FFprobe, FFmpeg, waveform analysis, and available visual inspection tools as appropriate.
+
+Where automated tests cannot reliably judge naturalness or semantic accuracy, perform an explicit manual or model-assisted review.
+
+Do not claim that subjective audio quality or synchronization has passed unless it has been checked.
+
+If any test fails, fix the issue and rerender where practical.
+
+## 14. ERROR HANDLING AND AUTONOMOUS EXECUTION
+
+Work independently through all steps that can be performed with available permissions.
+
+Do not stop after presenting a plan.
+
+Do not stop after generating scripts or prompts.
+
+Do not stop after creating a storyboard.
+
+Do not stop after generating a few video clips.
+
+Continue through asset generation, narration, synchronization, editing, rendering, and verification.
+
+Use parallel tasks or agents where supported, while avoiding conflicting writes to shared project files.
+
+If a service is unavailable:
+
+1. Identify the specific missing capability.
+2. Check for a reasonable alternative.
+3. Continue all independent tasks.
+4. Avoid repeatedly attempting a known-impossible operation.
+5. Record any unfinished step and the precise reason.
+
+If user action is essential because of authentication, API credentials, permissions, or paid credits, request only the necessary action. Do not bypass access controls or make purchases without authorization.
+
+Never report that an asset was generated or a file was validated unless the operation actually succeeded.
+
+## 15. FINAL DELIVERABLES
+
+Produce:
+
+1. 5_Free_AI_Tools_English.mp4
+2. 5_Free_AI_Tools_Tamil.mp4
+3. English narration WAV
+4. Tamil narration WAV
+5. English subtitle SRT
+6. Tamil subtitle SRT
+7. English script
+8. Tamil script
+9. Storyboard and scene timing manifest
+10. Visual generation prompts
+11. Reusable source scripts
+12. Project assets and editing files where supported
+13. README with execution instructions
+14. Quality assurance report
+
+Create a concise final report stating:
+
+- Which files were successfully produced
+- Exact duration, resolution, and frame rate of each video
+- Which services and models were used
+- Whether the voiceovers and subtitles were verified
+- Whether the videos were checked for synchronization and playback
+- Any limitations or remaining manual tasks
+
+Include direct paths to the generated files and clear instructions for opening or downloading them.
+
+## EXECUTION COMMAND
+
+Begin by inspecting the environment and creating the project directory. Then execute the complete production workflow.
+
+Make sensible production decisions independently. Prioritize accurate and beginner-friendly tool explanations, current and cautious free-tier claims, natural English and Tamil narration, consistent visuals, precise synchronization, and real playable final video files.
+
+Your final success criterion is two complete, verified, synchronized educational videos—not a plan, a presentation, or a set of instructions.
